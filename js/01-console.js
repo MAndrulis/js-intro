@@ -9,7 +9,20 @@ console.log (4, 5, 6, 7);
 
 //Multi-line
 //as
-//single-line
+//Single-line
+//comment
 
 /*Single-line as multi-line comment */
+
+/* Single-line
+as
+multi-line
+comment */
+
+/* Single-line
+as
+multi-line
+comment 
+*/
+
 
