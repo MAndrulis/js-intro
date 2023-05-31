@@ -142,9 +142,9 @@ const result8 = x * h;
 const result9 = x * i;
 const result10 = x * j;
 
-const lentele1 = x + "*" + a + "=" + result1 + " \r\n " + x + "*" + b + "=" + result2 + " \r\n "  + x + "*" + c + "=" + result3 + " \r\n " 
-+ x + "*" + d + "=" + result4 + " \r\n " + x + "*" + e + "=" + result5 + " \r\n " + x + "*" + f + "=" + result6 + " \r\n " + x + "*" + g + "=" + result7 + " \r\n "
-+ x + "*" + h + "=" + result8 + " \r\n "+ x + "*" + i + "=" + result9 + " \r\n " + x + "*" + j + "=" + result10 + " \r\n ";
+const lentele1 = x + " * " + a + " = " + result1 + " \n " + x + " * " + b + " = " + result2 + " \n "  + x + " * " + c + " = " + result3 + " \n " 
++ x + " * " + d + " = " + result4 + " \n " + x + " * " + e + " = " + result5 + " \n " + x + " * " + f + " = " + result6 + " \n " + x + " * " + g + " = " + result7 + " \n "
++ x + " * " + h + " = " + result8 + " \n "+ x + " * " + i + " = " + result9 + " \n " + x + " * " + j + " = " + result10 + " \n ";
 
 console.log(lentele1);
 
@@ -172,7 +172,7 @@ const result88 = xx * hh;
 const result99 = xx * ii;
 const result100 = xx * jj;
 
-const lentele2 = ` ${xx} * ${aa} = ${result11}
+const lentele2 = `${xx} * ${aa} = ${result11}
 ${xx} * ${bb} = ${result22}
 ${xx} * ${cc} = ${result33}
 ${xx} * ${dd} = ${result44}
