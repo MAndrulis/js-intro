@@ -6,6 +6,7 @@ STRING - tekstiniu simboliu grandinele, aka tekstas
 Iniciavimo budai:
 - viengubos kabutes ()
 - dvigubos kabutes ("")
+-length > ilgis
 */
 
 const vardas = 'Jonas';
@@ -184,10 +185,101 @@ ${xx} * ${ii} = ${result99}
 ${xx} * ${jj} = ${result100} `;
 console.log(lentele2);
 
+ console.clear ()
+
+ const daugiklis = 2 ;
+ const n1 = 1;
+ const n2 = 2;
+ const n3 = 3;
+ const n4 = 4;
+ const n5 = 5;
+ const n6 = 6;
+ const n7 = 7;
+ const n8 = 8;
+ const n9 = 9;
+ const n10 = 10;
+
+ const lentele01 = daugiklis + ' * ' + n1 + ' = ' + (daugiklis * n1) + '\r\n'
+ + daugiklis + ' * ' +n2 + ' = ' + (daugiklis * n2) + '\r\n' + daugiklis + ' * ' +n3 + ' = ' + (daugiklis * n3) + '\r\n'
+ + daugiklis + ' * ' +n4 + ' = ' + (daugiklis * n4) + '\r\n' + daugiklis + ' * ' +n5 + ' = ' + (daugiklis * n5) + '\r\n'
+ + daugiklis + ' * ' +n6 + ' = ' + (daugiklis * n6) + '\r\n' + daugiklis + ' * ' +n7 + ' = ' + (daugiklis * n7) + '\r\n'
+ + daugiklis + ' * ' +n8 + ' = ' + (daugiklis * n8) + '\r\n' + daugiklis + ' * ' +n9 + ' = ' + (daugiklis * n9) + '\r\n'
+ + daugiklis + ' * ' +n10 + ' = ' + (daugiklis * n10) + '\r\n'
+
+ const multiplier = 3;
+ let number = 0;
+
+ const lentele3 = `
+ ${multiplier} * ${++number} = ${multiplier * number}
+ ${multiplier} * ${++number} = ${multiplier * number}
+ ${multiplier} * ${++number} = ${multiplier * number}
+ ${multiplier} * ${++number} = ${multiplier * number}
+ ${multiplier} * ${++number} = ${multiplier * number}
+ ${multiplier} * ${++number} = ${multiplier * number}
+ ${multiplier} * ${++number} = ${multiplier * number}
+ ${multiplier} * ${++number} = ${multiplier * number}
+ ${multiplier} * ${++number} = ${multiplier * number}
+ ${multiplier} * ${++number} = ${multiplier * number} 
+ `;
  
+ console.log(lentele3);
+ 
+ let sum = 0;
+ let index = 0;
+ 
+ const lentele4 =`
+ ${multiplier} * ${++index} = ${sum += multiplier}
+ ${multiplier} * ${++index} = ${sum += multiplier}
+ ${multiplier} * ${++index} = ${sum += multiplier}
+ ${multiplier} * ${++index} = ${sum += multiplier}
+ ${multiplier} * ${++index} = ${sum += multiplier}
+ ${multiplier} * ${++index} = ${sum += multiplier}
+ ${multiplier} * ${++index} = ${sum += multiplier}
+ ${multiplier} * ${++index} = ${sum += multiplier}
+ ${multiplier} * ${++index} = ${sum += multiplier}
+ ${multiplier} * ${++index} = ${sum += multiplier}
+ `;
+ 
+ console.log(lentele4);
+ 
+ const str = 'Pavyzdys';
+ console.log(str, 8, '>>>', str.length);
+ 
+ const empty = '        ' ;
+ console.log(empty.length);
+ 
+ const raide1 = str[0];
+ console.log(raide1, 'P');
+ console.log('---------------');
+ 
+ /*console.log(str[0]);
+ console.log(str[1]);
+ console.log(str[2]);
+ console.log(str[3]);
+ console.log(str[4]);
+ console.log(str[5]);
+ console.log(str[6]);
+ console.log(str[7]);*/
+ 
+ let strIndex = 0;
+ 
+ console.log(str[strIndex++]);
+ console.log(str[strIndex++]);
+ console.log(str[strIndex++]);
+ console.log(str[strIndex++]);
+ console.log(str[strIndex++]);
+ console.log(str[strIndex++]);
+ console.log(str[strIndex++]);
+ console.log(str[strIndex++]);
+ console.log(str[strIndex++]);
+ console.log(str[strIndex++]);
 
 
+ const userFirstName = 'Chuck';
+ const userLastName = 'Norris';
 
+const userAbbr = `${userFirstName [0]}.${userLastName[0]}`;
+console.log(userAbbr);
 
 
 
