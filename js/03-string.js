@@ -149,6 +149,41 @@ const lentele1 = x + "*" + a + "=" + result1 + " \r\n " + x + "*" + b + "=" + re
 console.log(lentele1);
 
 
+const xx = 4;
+const aa = 1;
+const bb = 2;
+const cc= 3;
+const dd = 4;
+const ee = 5;
+const ff = 6;
+const gg = 7;
+const hh = 8;
+const ii = 9;
+const jj = 10;
+
+const result11 = xx * aa;
+const result22 = xx * bb;
+const result33 = xx * cc;
+const result44 = xx * dd;
+const result55 = xx * ee;
+const result66 = xx * ff;
+const result77 = xx * gg;
+const result88 = xx * hh;
+const result99 = xx * ii;
+const result100 = xx * jj;
+
+const lentele2 = ` ${xx} * ${aa} = ${result11}
+${xx} * ${bb} = ${result22}
+${xx} * ${cc} = ${result33}
+${xx} * ${dd} = ${result44}
+${xx} * ${ee} = ${result55}
+${xx} * ${ff} = ${result66}
+${xx} * ${gg} = ${result77}
+${xx} * ${hh} = ${result88}
+${xx} * ${ii} = ${result99}
+${xx} * ${jj} = ${result100} `;
+console.log(lentele2);
+
  
 
 
