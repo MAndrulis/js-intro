@@ -185,7 +185,7 @@ ${xx} * ${ii} = ${result99}
 ${xx} * ${jj} = ${result100} `;
 console.log(lentele2);
 
- console.clear ()
+ console.clear ();
 
  const daugiklis = 2 ;
  const n1 = 1;
