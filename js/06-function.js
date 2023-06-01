@@ -107,8 +107,7 @@ console.clear();
 // Sveiki, mano vardas Ona ir man 25metai!
 
 function intro(name, age) {
-   return `Sveiki, mano vardas ${name}
-   ir man ${age} metai!` ;
+   return `Sveiki, mano vardas ${name} ir man ${age} metai!` ;
 }
 
 const intro1 = intro('Jonas', 99);
