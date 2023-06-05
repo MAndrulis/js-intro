@@ -77,11 +77,11 @@ const stud4 = 'Ona';
 const marks4 = [5, 5, 5, 5, 5, 5, 5, 5]
 
 function studentIntro(studentName, marks) {
-    const lastMark = marks[marks.length - 1];
-    return studentName + ": paskutinis pazymys yra " + lastMark + ".";
-  }
-  
-  console.log(studentIntro(stud1, marks1));
-  console.log(studentIntro(stud2, marks2));
-  console.log(studentIntro(stud3, marks3));
-  console.log(studentIntro(stud4, marks4));
+   const lastMark = marks[marks.length - 1];
+   return studentName + ": paskutinis pazymys yra " + lastMark + ".";
+ }
+ 
+ console.log(studentIntro(stud1, marks1));
+ console.log(studentIntro(stud2, marks2));
+ console.log(studentIntro(stud3, marks3));
+ console.log(studentIntro(stud4, marks4));
