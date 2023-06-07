@@ -58,11 +58,99 @@ const pazymiai = [10, 2, 8, 4, 6]
 let pazymiuSuma = 0;
 
 for (let i = 0; i < pazymiai.length; i++) {
-    const pazymys = pazymiai [i]
+    const pazymys = pazymiai [i];
     pazymiuSuma += pazymys;
 }
 
 const pazymiuKiekis = pazymiai.length;
 const pazymiuVidurkis = pazymiuSuma / pazymiuKiekis;
 
-console.log(`Pazymiu vidurkis yra'${pazymiuVidurkis}.`);
+console.log(`Pazymiu vidurkis yra ${pazymiuVidurkis}.`);
+
+console.clear ();
+
+// Kiek skaiciu yra teigiamu
+const numbers = [10, -7, 5, 77, 13, -9, 0, 14];
+let kiek = 0;
+
+
+for (let i = 0; i < 8; i++) {
+    const number = numbers [i];
+    if (number >= 0) {
+        kiek++;
+    } /*else {
+        console.log('Nieko nedarau...');
+    }*/
+}
+
+console.log('KIEK:', kiek);
+
+const list = [];
+for (let i = 0; i < list.length; i++) {
+    const item = list [i];    
+}
+
+console.clear();
+
+const dictionary = ['Labas', 'rytas', 'sakau', 'tau', 'mano',
+ 'mielas', 'mieste', 'Ka', 'tu', 'ka', 'vakare']
+
+ // Kiek yra zodziu, kurie yra trumpesni nei "Labas"?
+ // Kiek yra zodziu, kurie yra ilgesni nei "Labas"?
+ // Kiek yra zodziu, kurie yra tokio pat ilgio kaip "Labas"?
+ // Pavyzdinis zodis gali buti kintamas.
+ 
+ let trumpi = 0;
+ let toksPat = 0;
+ let ilgu = 0;
+ const zodis = 'Labas';
+ const ilgis = zodis.length;
+
+ for (let i = 0; i < dictionary.length; i++) {
+    const word = dictionary [i];
+    if (word.length === ilgis) {
+        toksPat++;
+    }else if (word.length < ilgis) {
+        trumpi++;
+    } else {
+        ilgu++;
+    }
+ }
+
+ console.log('Trumpesniu zodziu', trumpi);
+ console.log('Tokio pat ilgio zodziu:', toksPat);
+ console.log('Ilgesniu zodziu:', ilgu);
+
+console.clear();
+
+// Kiek duotas masyvas turi ieskomo skaiciaus atveju (kiekio)?
+// m1:1 -> 3
+// m1:2 -> 0
+// m1:3 -> 0
+// m2:1 -> 1
+// m2:2 -> 2
+// m2:3 -> 1
+// m4:1 -> 5
+// m4:2 -> 3
+// m4:3 -> 2
+
+ const masyvas1 = [1, 1, 1]
+ const masyvas2 = [1, 2, 2, 3]
+ const masyvas3 = [5, 4, 3, 2, 1]
+ const masyvas4 = [5, 4, 3, 2, 1, 1, 1, 1, 2, 2, 3]
+ let ieskomo = 0;
+
+let kiekis = (masyvas, skaicius) => {
+ for(let i = 0; i < masyvas.length; i++ ){
+         if(masyvas[i] === skaicius){
+            ieskomo++;
+        }
+    }
+     return ieskomo;
+}
+
+ console.log(kiekis(masyvas4, 1));
+
+
+
+ 
