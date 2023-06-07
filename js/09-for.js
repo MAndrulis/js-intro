@@ -184,7 +184,9 @@ console.log(intervale (0, 100));
 console.log(intervale (0, 1000));
 console.log(intervale (0,1000_000));
 console.log(intervale (0,1000_000_000));
-console.log(intervale (0,1000_000_000_0));
+console.log(intervale (0,1000_000_000_000));
+console.log(intervale (0,1000_000_000_000_000));
+console.log(intervale (0,1000_000_000_000_000_000));
 
 
 
