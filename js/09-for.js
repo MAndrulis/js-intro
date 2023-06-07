@@ -149,7 +149,43 @@ let kiekis = (masyvas, skaicius) => {
      return ieskomo;
 }
 
- console.log(kiekis(masyvas4, 1));
+ console.log(kiekis(masyvas2));
+
+ console.clear ();
+/*
+ function sumaIntervale(nuo, iki) {
+    let suma = 0;
+    for (let i = nuo; i <= iki; i++) {
+        suma += i;
+    }
+    return suma;
+ }
+*/
+// console.log(sumaIntervale (0, 0));
+// console.log(sumaIntervale (0, 1));
+ //console.log(sumaIntervale (0, 2));
+// console.log(sumaIntervale (0, 3));
+// console.log(sumaIntervale (0, 4));
+// console.log(sumaIntervale (-50, 50));
+// console.log(sumaIntervale (-70, 30));
+// console.log('---------------------------------');
+ //console.log(sumaIntervale (0, 1_000_000_000_0));
+
+function intervale(nuo, iki) {
+    return iki * (iki + 1) /2;
+}
+console.log(intervale (0, 1));
+console.log(intervale (0, 2));
+console.log(intervale (0, 3));
+console.log(intervale (0, 4));
+console.log(intervale (0, 5));
+console.log(intervale (0, 10));
+console.log(intervale (0, 100));
+console.log(intervale (0, 1000));
+console.log(intervale (0,1000_000));
+console.log(intervale (0,1000_000_000));
+console.log(intervale (0,1000_000_000_0));
+
 
 
 
