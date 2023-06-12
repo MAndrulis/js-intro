@@ -34,3 +34,5 @@ console.log(typeof a);
 const b = typeof true;
 console.log(b);
 console.log(typeof b);
+
+console.clear();
