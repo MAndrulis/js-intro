@@ -5,11 +5,13 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    
     "letters": "nodemon ./mini/letters.js",
     "biggestNumber": "nodemon ./mini/biggestNumber.js",
     "numberLength": "nodemon ./mini/numberLength.js",
     "typeof":"nodemon ./js/10-typeof.js",
     "multiply":"nodemon ./mini/multiply.js",
+    "object": "nodemon ./js/11-object.js",
     "for": "nodemon ./js/09-for.js",
     "if": "nodemon ./js/08-if.js" ,
     "array": "nodemon ./js/07-array.js",
