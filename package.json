@@ -11,6 +11,7 @@
     "numberLength": "nodemon ./mini/numberLength.js",
     "destructuring": "nodemon ./js/15-destructuring.js",
     "multiply":"nodemon ./mini/multiply.js",
+    "ternary": "nodemon ./js/16-ternary.js",
     "loops": "nodemon ./js/14-loops.js",
     "arrow":"nodemon ./js/13-arrow.js",
     "arrayMethod": "nodemon ./js/12-array-method.js",
